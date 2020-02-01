@@ -1,0 +1,14 @@
+version: '3'
+services:
+  # sudo dfu-programmer atmega32u2 erase
+  # sudo dfu-programmer atmega32u2 flash .build/frosty_.hex
+  # sudo dfu-programmer atmega32u2 reset
+  frosty_flake:
+    container_name: qmk_frosty_flake
+    build: .
+    volumes:
+      - "./:/qmk"
+    environment:
+      keyboard: frosty_flake
+      #subproject: ez
+      keymap: ccj
