@@ -1,3 +1,15 @@
+# @coreyjewett's frosty_flake QMK
+
+## Build
+
+    docker-compose run frosty_flake
+
+## Write
+
+    ./write_frosty.sh
+
+
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
