@@ -1,4 +1,4 @@
-#include "frosty_flake.h"
+#include QMK_KEYBOARD_H
 
 #define _FN       4
 #define _MOUSE    3
