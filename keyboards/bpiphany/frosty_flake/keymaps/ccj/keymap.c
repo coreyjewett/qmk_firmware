@@ -20,8 +20,8 @@
 #define MS_BTN2 KC_MS_BTN2
 #define MS_BTN3 KC_MS_BTN3
 
-#define Z_NUMPAD LT(_SYMBOL, KC_Z)
 #define LBRC_SYM LT(_SYMBOL, KC_LBRC)
+#define Z_NUMPAD LT(_SYMBOL, KC_Z)
 #define CTL_ESC MT(MOD_LCTL, KC_ESC)
 #define CTL_ENT MT(MOD_LCTL, KC_ENT)
 
